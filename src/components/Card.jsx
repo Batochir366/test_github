@@ -2,7 +2,7 @@ import React from "react";
 
 export const Card = () => {
   return (
-    <div className="w-[414px] h-[832px] rounded-[48px] bg-[#111827] backdrop-blur-md absolute z-[60] flex justify-center ">
+    <div className="w-[414px] h-[832px] rounded-[48px] bg-[#111827] absolute z-20 backdrop-blur-md flex justify-center ">
       <div
         className={`w-[398px] h-[504px] rounded-[42px] bg-custom mt-2 flex flex-col items-center`}
       >
@@ -42,7 +42,7 @@ export const Card = () => {
           <img className="absolute z-[80]" src="/icon.png" alt="zurag" />
           <img className="absolute z-[90]" src="/shadow.png" alt="zurag" />
         </div>
-        <div className="flex flex-col absolute">
+        <div className="flex flex-col">
           <h1 className="bg-customText1 text-[144px] 2">17°</h1>
           <h3>Clear</h3>
         </div>
