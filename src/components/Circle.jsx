@@ -1,6 +1,10 @@
-
-export const Circle = ({classname}) => {
+export const Circle = ({ classname }) => {
   return (
-    <div className={`border border-gray-700 border-solid absolute z-10 ` + classname}></div>
-  )
-}
+    <div
+      className={
+        `border border-t-[#fff] border-r-[#fff] border-black border-opacity-[0.08] rotate-45 border-solid absolute z-1 ` +
+        classname
+      }
+    ></div>
+  );
+};
