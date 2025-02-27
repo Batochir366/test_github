@@ -7,7 +7,7 @@ export const Input = () => {
       <IoMdSearch className="size-[48px] text-gray-300" />
       <input
         placeholder="Search"
-        className="w-[400px] h-[44px] px-6 py-4 bg-white focus-visible:outline-none text-black text-[32px] font-[700] "
+        className="w-[400px]  h-[44px] rounded-[48px] px-6 py-4 bg-white focus-visible:outline-none text-black text-[32px] font-[700] "
         type="text"
       />
     </div>

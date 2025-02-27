@@ -1,4 +1,3 @@
-export * from "./CardMoon";
-export * from "./CardSun";
+export * from "./Cards";
 export * from "./Circle";
 export * from "./Input";
